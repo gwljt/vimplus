@@ -65,7 +65,9 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim -c "PluginInstall" -c "q" -c "q"
 
 cd ~/.vim/bundle/YouCompleteMe
-sudo ./install.py --clang-completer
+# for c family
+# sudo ./install.py --clang-completer
+sudo ./install.py
 
 echo "Done!"
 
